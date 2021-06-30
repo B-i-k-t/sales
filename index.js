@@ -1,4 +1,4 @@
-
+<!-- Кнопка Добавить -->
 function add() {
   let item = document.createElement('div');
   item.className = "item__add";
@@ -18,6 +18,8 @@ function add() {
   item.append(save);
   document.body.append(item);
 }
+
+<!-- Кнопка Сохранить -->
 function button_save() {
     let save__item = document.createElement('div');
     save__item.className = "item__save";
@@ -41,15 +43,20 @@ function button_save() {
       item[0].remove();
     } 
   }
+
+<!-- Кнопка Удалить -->
 function button_del(btn) {
   var item__del = btn.parentNode;
   item__del.parentNode.removeChild(item__del);
 }
 
+<!-- Кнопка Куплено -->
 function button_buy(btn) {
   var item__buy = btn.parentNode;
   item__buy.style.textDecoration = "line-through";
 }
+
+<!-- Кнопка Очистить -->
 function clearAll() {
   let item = document.getElementsByClassName('item__add');
   while(item.length) {
