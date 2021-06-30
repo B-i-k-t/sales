@@ -14,7 +14,7 @@ button {
   border-radius: .5rem;
   margin: .3rem;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 15px;
   box-shadow: 0 0 0 .1rem #ddd inset, 0 .1rem .1rem #fff;
 }
 button:hover {
@@ -41,6 +41,9 @@ input {
 }
 @media (max-width: 600px) {
   body {
+    font-size: 30px;
+  }
+  button {
     font-size: 30px;
   }
 }
