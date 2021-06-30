@@ -4,12 +4,15 @@ function add() {
   item.className = "item__add";
   let name = document.createElement('input');
   name.className = "item__name";
+  name.placeholder = "Наименование";
   item.append(name);
   let count = document.createElement('input');
   count.className = "item__count";
+  count.placeholder = "Количество";
   item.append(count);
   let comment = document.createElement('input');
   comment.className = "item__comment";
+  comment.placeholder = "Комментарий";
   item.append(comment);
   let save = document.createElement('button');
   save.className = "btn__save";
@@ -26,7 +29,7 @@ function button_save() {
     let save__name = document.getElementsByClassName('item__name');
     let save__count = document.getElementsByClassName('item__count');
     let save__comment = document.getElementsByClassName('item__comment');
-    save__item.innerHTML = "<b>" + save__name[0].value + "</b> " + save__count[0].value + " шт. (" + save__comment[0].value + ")";
+    save__item.innerHTML = save__name[0].value + " " + save__count[0].value + " шт. (" + save__comment[0].value + ")";
     let buy = document.createElement('button');
     buy.className = "btn__buy";
     buy.innerHTML = "Куплено";
