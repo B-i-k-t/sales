@@ -5,35 +5,35 @@ html {
 button {
   position: relative;
   display: inline-block;
-  line-height: 2em;
+  line-height: 2rem;
   vertical-align: middle;
   text-align: center;
   text-decoration: none;
   color: #000;
   outline: none;
-  border-radius: 5px;
-  margin: 3px;
+  border-radius: .5rem;
+  margin: .3rem;
   cursor: pointer;
-  box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+  box-shadow: 0 0 0 .1rem #ddd inset, 0 .1rem .1rem #fff;
 }
 button:hover {
   background: #dcdcdc linear-gradient(#fff, #dcdcdc);
-  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+  box-shadow: 0 0 0 .1rem #aaa inset, 0 .1rem .1rem #aaa;
 }
 button:active {
   background: none;
-    box-shadow: 0 0 0 1px #bbb inset, 0 1px 3px rgba(0,0,0,.5) inset, 0 1px 2px #fff;
+    box-shadow: 0 0 0 .1rem #bbb inset, 0 .1rem .3rem rgba(0,0,0,.5) inset, 0 .1rem .2rem #fff;
 }
 h1 {
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
 }
 input {
-  padding: 5px;
-  margin-right: 2px;
+  padding: .5rem;
+  margin-right: .2rem;
 }
 .item__save {
-  font-size: 25px;
+  font-size: 1.6rem;
 }
 .item__name {
   font-weight: bold;
