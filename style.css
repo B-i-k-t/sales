@@ -38,3 +38,8 @@ input {
 .item__name {
   font-weight: bold;
 }
+@media (max-width: 600px) {
+  html {
+    font-size: 30px;
+  }
+}
