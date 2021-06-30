@@ -39,7 +39,7 @@ input {
 .item__name {
   font-weight: bold;
 }
-@media (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
   body {
     font-size: 30px;
   }
